@@ -50,3 +50,6 @@ Extend genai_helper.py to generate personalized retention emails or chatbot resp
 Containerize the project with Docker for easier deployment and scalability.
 
 Integrate real OpenAI API keys and handle usage quotas for production-grade AI assistance.
+
+# Telecom-Customer-Churn-Prediction-with-Generative-AI-Insights
+
