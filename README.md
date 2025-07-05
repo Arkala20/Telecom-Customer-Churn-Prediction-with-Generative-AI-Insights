@@ -26,7 +26,6 @@ python -m src.model
 # 4. Run inference and generate retention suggestions
 python -m src.inference --input_csv data/telco_churn.csv
 
-#Repository Layout
 
 churn_prediction_project/
 ├── data/                # Raw input CSV dataset(s)
@@ -42,6 +41,7 @@ churn_prediction_project/
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project overview and instructions
 
+
 Next Steps
 Connect exported predictions to Power BI or Tableau for interactive dashboards.
 
@@ -50,12 +50,3 @@ Extend genai_helper.py to generate personalized retention emails or chatbot resp
 Containerize the project with Docker for easier deployment and scalability.
 
 Integrate real OpenAI API keys and handle usage quotas for production-grade AI assistance.
-
-
-## Power BI Dashboard
-
-The Power BI dashboard file is saved at: `reports/churn_dashboard.pbix`
-
-Open this file in Power BI Desktop to explore churn risk, customer segments, and retention strategy visualizations.
-
-You can refresh the dataset in Power BI by loading updated CSV prediction files exported from the `reports/` folder.
